@@ -15,8 +15,14 @@
 @implementation AppDelegate
 
 
++ (AppDelegate*)shareApplication
+{
+    return [UIApplication sharedApplication].delegate;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _cache = [[NSCache alloc] init];
     return YES;
 }
 

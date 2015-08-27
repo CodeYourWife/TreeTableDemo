@@ -12,6 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong,nonatomic)NSCache* cache;
+
++ (AppDelegate*)shareApplication;
+
 
 @end
 

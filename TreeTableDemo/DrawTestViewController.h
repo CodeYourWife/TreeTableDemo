@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DrawTestViewController.h
 //  TreeTableDemo
 //
 //  Created by jianghai on 15/8/27.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DrawTestViewController : UIViewController
 
 @end
-
